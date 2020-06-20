@@ -1,0 +1,1 @@
+export const BUY_PETISH = 'BUY_PETISH'
