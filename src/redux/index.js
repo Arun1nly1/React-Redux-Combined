@@ -1,3 +1,5 @@
 export {buyCake} from './cakes/CakeActions'
 export {buyIceCream} from './iceCream/IceCreamActions'
 export {buyPetish} from  './Petish/PetishActions'
+// export {fetchUsersFailure,fetchUsersRequest,fetchUsersSuccess} from  './user/UserActions'
+export * from  './user/UserActions'

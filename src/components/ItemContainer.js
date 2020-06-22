@@ -24,8 +24,8 @@ const mapStateToProps = (state,ownProps) =>{
 
 const mapDispatchToProps = (dispatch,ownProps) =>{
     const dispatchFunction = ownProps.cake
-    ?() => dispatch(buyCake())
-    :() => dispatch(buyIceCream())
+        ?() => dispatch(buyCake())
+        :() => dispatch(buyIceCream())
 
     return{
         buyItem : dispatchFunction
